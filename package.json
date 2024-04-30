@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "mocha": "^10.4.0",
+    "pactum": "^3.6.5"
+  },
+  "dependencies": {
+    "chai": "^4.3.10"
+  },
+  "scripts": {
+    "tests": "mocha tests/funcional/users/**.test.js --timeout=99999",
+    "unitTest": "mocha tests/funcional/users/deveValidarAExclusaoDeUmUsuarioDoTipoAdministrador.test.js" 
+  }
+}
