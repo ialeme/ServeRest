@@ -9,6 +9,7 @@
   },
   "scripts": {
     "tests": "mocha tests/funcional/users/**.test.js --timeout=99999",
-    "unitTest": "mocha tests/funcional/users/deveValidarAExclusaoDeUmUsuarioDoTipoAdministrador.test.js" 
+    "unitTest": "mocha Tests/funcional/users/get/deveValidarABuscaDeUmUsuarioAtravesDoNome.test.js",
+    "unitLogin": "mocha Tests/funcional/login/DeveValidarOLoginComCredenciaisDeUmUsuarioNaoCadastrado.test.js"
   }
 }
